@@ -8,7 +8,7 @@ handlers:
   static_dir: static
 
 - url: /t
-  static_dir: templates
+  static_dir: templates-
 
 - url: /.*
   script: main.py
