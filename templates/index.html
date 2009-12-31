@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" >
+<head>
+	<title>Заочный конкурс по математике и информатике</title>
+	<link href="/st/core.css" rel="stylesheet" type="text/css" media="screen, projection, print, tv" /><!-- This stylesheet builds the layout -->
+	<link href="/st/text.css" rel="stylesheet" type="text/css" media="screen, projection, print, tv" /><!-- This stylesheet formats text and is very useful -->
+	<link href="/st/default.css" rel="stylesheet" type="text/css" media="screen, projection, print, tv" /><!-- This stylesheet applies styles for named elements, and builds a colour sheme -->
+	<link href="/st/print.css" rel="stylesheet" type="text/css" media="print" /><!-- This stylesheet applies styles for printing only -->
+</head>
+<body>
+<div class="container_760px">
+	<div class="column_100">
+		<div id="header" class="inner">
+			<h1>Заочный конкурс по математике для 6-8 классов</h1>
+		</div>
+	</div>
+	<div class="column_50">
+		<div class="inner box">
+			<h2>Сначала</h2>
+                        <p>Заполните все поля формы и нажмите кнопку OK.</p>
+		</div>
+	</div>
+	<div class="column_50">
+		<div class="inner box">
+			<h2>Затем</h2>
+                        <p>Распечатайте полученную страницу и вложите её в конверт с работой</p>
+		</div>
+	</div>
+	<div class="column_100">
+		<div class="inner">
+                  <h2>Карточка участника</h2>
+                  <div class="text_center">
+                  <form methof="get" action="/card">
+                    <table class="form"><tr>
+                        <td><label for="name">Фамилия, Имя:</label></td>
+		        <td><input type="text" id="name" name="name" size="50"/></td></tr>
+		      <tr>
+                        <td><label for="class">Класс:</label></td>
+		        <td><input type="text" id="class" name="class" size="10"/></td></tr>
+                      <tr>
+                        <td><label for="school">Школа:</label></td>
+		        <td><input type="text" id="school" name="school" size="30"/></td></tr>
+		      <tr>
+                        <td><label for="index">Индекс:</label></td>
+		        <td><input type="text" id="index" name="index" size="10"/></td></tr>
+		      <tr>
+                        <td><label for="address">Домашний адрес:</label></td>
+		        <td><textarea rows="2" cols="20" id="address" name="address"></textarea></td></tr>
+		      <tr>
+                        <td><label for="phone">Домашний телефон:</label></td>
+                        <td><input type="text" id="phone" name="phone"/></td></tr>
+                      <tr>
+		        <td></td><td><input class="n submit" type="submit" value="OK" /></td></tr>
+                    </table>
+
+                  </form>
+                  </div>
+		</div>
+	</div>
+	<div class="column_100">
+		<div id="footer" class="inner">
+                  <p>Пишите: <a href="mailto:zmk@mccme.ru">zmk@mccme.ru</a></p>
+	        </div>
+	</div>
+</div>
+</body>
+</html>

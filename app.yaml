@@ -1,0 +1,14 @@
+application: zmk
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /st
+  static_dir: static
+
+- url: /t
+  static_dir: templates
+
+- url: /.*
+  script: main.py
